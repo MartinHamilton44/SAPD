@@ -5,37 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAPD - Ausbildung</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #b10202;
+      color: white;
+    }
+    header {
+      background-color: #7a0101;
+    }
+    section {
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+    a {
+      color: #93c5fd; /* Tailwind: blue-300 */
+    }
+  </style>
 </head>
-<body class="bg-gray-900 text-white">
-  <header class="bg-gray-800 p-6 text-center text-3xl font-bold">Ausbildung</header>
+<body>
+  <header class="p-6 text-center text-3xl font-bold">Ausbildung</header>
   <main class="p-8 max-w-3xl mx-auto space-y-6">
+
     <section>
       <h2 class="text-xl font-semibold">Leitung</h2>
       <p>Fritz Fifty</p>
     </section>
+
     <section>
       <h2 class="text-xl font-semibold">Stellvertretende Leitung</h2>
       <p>Finn Miller</p>
     </section>
+
     <section>
       <h2 class="text-xl font-semibold">Aufgabengebiet</h2>
       <ul class="list-disc list-inside">
         <li>Durchführung von Ausbildungen</li>
       </ul>
     </section>
+
     <section>
       <h2 class="text-xl font-semibold">Voraussetzung</h2>
-      <p>Officer III oder Officer II  + Empfehlungsschreiben vom High Staff Comand</p>
+      <p>Officer III oder Officer II + Empfehlungsschreiben vom High Staff Comand</p>
     </section>
+
     <section>
-      <h2 class="text-xl font-semibold">Gruppenbild</h2>
       <div class="w-full h-64 bg-gray-700 flex items-center justify-center rounded-xl">
         <p class="text-gray-300">[Platzhalter für Gruppenbild]</p>
       </div>
     </section>
+
     <div class="text-center mt-8">
-      <a href="index.html" class="text-blue-400 underline">Zurück zur Übersicht</a>
+      <a href="index.html" class="underline">Zurück zur Übersicht</a>
     </div>
+
   </main>
 </body>
 </html>
